@@ -1,6 +1,7 @@
 package net.appthespectator.thebrainrots.item;
 
 import net.appthespectator.thebrainrots.TheBrainRots;
+import net.appthespectator.thebrainrots.item.custom.DoubleChunkItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -18,6 +19,11 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> fu = ITEMS.register("fu",
             () -> new Item(new Item.Properties()));
+
+
+    public static final RegistryObject<Item> Double_Chunk = ITEMS.register("double_chunk",
+            () -> new DoubleChunkItem(new Item.Properties().durability(64)));
+
 
 
     public static void register(IEventBus eventBus){

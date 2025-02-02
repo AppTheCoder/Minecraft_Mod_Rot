@@ -2,6 +2,7 @@ package net.appthespectator.thebrainrots.item;
 
 import net.appthespectator.thebrainrots.TheBrainRots;
 import net.appthespectator.thebrainrots.block.ModBlocks;
+import net.appthespectator.thebrainrots.item.custom.DoubleChunkItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,6 +23,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                       output.accept(ModItems.goonergem.get());
                       output.accept(ModItems.gooneringot.get());
+
+                      output.accept(ModItems.Double_Chunk.get());
 
                       output.accept(ModBlocks.gooner_ore.get());
                       output.accept(ModBlocks.gooner_block.get());
