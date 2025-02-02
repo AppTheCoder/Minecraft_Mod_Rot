@@ -1,4 +1,6 @@
 {
   "item.thebrainrots.goonergem": "Gooner Gem",
-  "item.thebrainrots.gooneringot": "Gooner Ingot"
+  "item.thebrainrots.gooneringot": "Gooner Ingot",
+
+  "block.thebrainrots.gooner_block": "Gooner Block"
 }
