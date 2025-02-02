@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G":{
+      "item": "thebrainrots:gooneringot"
+    },
+    "C": {
+      "item": "minecraft:cooked_chicken"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CGC",
+    "CCC"
+  ],
+  "result": {
+    "count":1,
+    "id": "thebrainrots:chicken_bake"
+  }
+}

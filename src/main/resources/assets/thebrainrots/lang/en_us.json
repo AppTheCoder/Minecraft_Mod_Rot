@@ -10,5 +10,8 @@
 
   "block.thebrainrots.chicken_bake": "Chicken Bake",
 
-  "creativetab.thebrainrots.gooner": "The Brain Rots"
+  "creativetab.thebrainrots.gooner": "The Brain Rots",
+
+  "tooltip.thebrianrtos.chicken_bake.tooltip": "Try throwing §kchicken§r on it?"
+
 }
