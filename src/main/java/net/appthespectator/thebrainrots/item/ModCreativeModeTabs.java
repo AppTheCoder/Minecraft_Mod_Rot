@@ -23,7 +23,10 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.goonergem.get());
                       output.accept(ModItems.gooneringot.get());
 
+
                       output.accept(ModBlocks.gooner_block.get());
+
+                      output.accept(ModItems.fu.get());
 
 
                     }).build());

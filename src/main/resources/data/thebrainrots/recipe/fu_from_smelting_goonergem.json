@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0,
+  "group": "thebrainrots",
+  "ingredient": {
+    "item": "thebrainrots:goonergem"
+  },
+  "result": {
+    "id": "thebrainrots:fu"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "cookingtime": 1000,
+  "experience": 5,
+  "ingredient": {
+    "item": "thebrainrots:goonergem"
+  },
+  "result": {
+    "id": "thebrainrots:gooneringot"
+  }
+}
