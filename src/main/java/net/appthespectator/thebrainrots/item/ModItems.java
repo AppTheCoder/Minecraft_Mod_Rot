@@ -12,7 +12,9 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, TheBrainRots.MOD_ID);
 
 
-    public  static final RegistryObject<Item> GOONERGEM = ITEMS.register("Gooner Gem",
+    public  static final RegistryObject<Item> goonergem = ITEMS.register("goonergem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> gooneringot = ITEMS.register("gooneringot",
             () -> new Item(new Item.Properties()));
 
 

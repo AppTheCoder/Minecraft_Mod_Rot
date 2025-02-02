@@ -1,8 +1,8 @@
 package net.appthespectator.thebrainrots;
 
 import com.mojang.logging.LogUtils;
+import net.appthespectator.thebrainrots.block.ModBlocks;
 import net.appthespectator.thebrainrots.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -38,6 +38,7 @@ public class TheBrainRots
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
         // Register the item to a creative tab
@@ -51,11 +52,16 @@ public class TheBrainRots
 
     }
 
-    // Add the example block item to the building blocks tab
+    // Add the example block item to the ingredients tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.GOONERGEM);
+            event.accept(ModItems.goonergem);
+            event.accept(ModItems.gooneringot);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.gooner_block);
         }
     }
 
