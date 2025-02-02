@@ -41,7 +41,7 @@ public class DoubleChunkItem extends Item {
                 pContext.getItemInHand().hurtAndBreak(1,((ServerLevel) level), ((ServerPlayer) pContext.getPlayer()),
                     item -> pContext.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
 
-                level.playSound(null, pContext.getClickedPos(), SoundEvents.BAT_HURT, SoundSource.BLOCKS);
+                level.playSound(null, pContext.getClickedPos(), SoundEvents.CAMEL_EAT, SoundSource.BLOCKS);
 
             }
         }

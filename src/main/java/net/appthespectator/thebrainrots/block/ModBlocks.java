@@ -1,6 +1,7 @@
 package net.appthespectator.thebrainrots.block;
 
 import net.appthespectator.thebrainrots.TheBrainRots;
+import net.appthespectator.thebrainrots.block.custom.ChickenBake;
 import net.appthespectator.thebrainrots.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -31,7 +32,8 @@ public class ModBlocks {
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.SCULK_SHRIEKER))));
 
 
-
+    public static final RegistryObject<Block> chicken_bake = registerBlock("chicken_bake",
+            () -> new ChickenBake(BlockBehaviour.Properties.of().strength(2f)));
 
 
 

@@ -24,10 +24,14 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.goonergem.get());
                       output.accept(ModItems.gooneringot.get());
 
-                      output.accept(ModItems.Double_Chunk.get());
+
 
                       output.accept(ModBlocks.gooner_ore.get());
                       output.accept(ModBlocks.gooner_block.get());
+
+                      output.accept(ModBlocks.chicken_bake.get());
+
+                      output.accept(ModItems.Double_Chunk.get());
 
                       output.accept(ModItems.fu.get());
 
