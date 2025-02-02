@@ -2,10 +2,12 @@ package net.appthespectator.thebrainrots.block;
 
 import net.appthespectator.thebrainrots.TheBrainRots;
 import net.appthespectator.thebrainrots.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,9 +21,18 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TheBrainRots.MOD_ID);
 
+
+
     public static final RegistryObject<Block> gooner_block = registerBlock("gooner_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CALCITE)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.SCULK_SHRIEKER)));
+
+    public static final RegistryObject<Block> gooner_ore = registerBlock("gooner_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2,5),(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.SCULK_SHRIEKER))));
+
+
+
 
 
 
