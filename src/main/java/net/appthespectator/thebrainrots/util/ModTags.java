@@ -10,6 +10,9 @@ import net.minecraft.world.level.block.Block;
 
 public class ModTags {
     public static class Blocks {
+        public static final TagKey<Block> needs_gooner_tool = createTag("needs_gooner_tool");
+        public static final TagKey<Block> incorrect_for_gooner_tool = createTag("incorrect_for_gooner_tool");
+
 
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(TheBrainRots.MOD_ID, name));

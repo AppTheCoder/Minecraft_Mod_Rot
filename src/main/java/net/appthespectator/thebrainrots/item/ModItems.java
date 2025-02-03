@@ -2,7 +2,7 @@ package net.appthespectator.thebrainrots.item;
 
 import net.appthespectator.thebrainrots.TheBrainRots;
 import net.appthespectator.thebrainrots.item.custom.DoubleChunkItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -23,6 +23,22 @@ public class ModItems {
 
     public static final RegistryObject<Item> Double_Chunk = ITEMS.register("double_chunk",
             () -> new DoubleChunkItem(new Item.Properties().durability(64)));
+
+    public static final RegistryObject<Item> gooner_sword = ITEMS.register("gooner_sword",
+            () -> new SwordItem(ModToolTiers.gooner, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.gooner, 3, -2.4f))));
+    public static final RegistryObject<Item> gooner_pickaxe = ITEMS.register("gooner_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.gooner, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.gooner, 1, -2.8f))));
+    public static final RegistryObject<Item> gooner_shovel = ITEMS.register("gooner_shovel",
+            () -> new ShovelItem(ModToolTiers.gooner, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.gooner, 1.5f, -3.0f))));
+    public static final RegistryObject<Item> gooner_axe = ITEMS.register("gooner_axe",
+            () -> new AxeItem(ModToolTiers.gooner, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.gooner, 6, -3.2f))));
+    public static final RegistryObject<Item> gooner_hoe = ITEMS.register("gooner_hoe",
+            () -> new HoeItem(ModToolTiers.gooner, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.gooner, 4, -2.4f))));
 
 
 

@@ -1,6 +1,11 @@
-// 1.21	2025-02-02T20:07:27.0159244	Item Models: thebrainrots
+// 1.21	2025-02-02T21:02:04.2410785	Item Models: thebrainrots
 ead84a3b883c4ebae06ec80f0572bc9ac1b83d70 assets/thebrainrots/models/item/double_chunk.json
 442222294c49ddf4c711fc4d1f4cdc81ae03029a assets/thebrainrots/models/item/fu.json
 8fac5f97814b253c723a69542aea90d7715f772e assets/thebrainrots/models/item/goonergem.json
 2f6aeff5c4955a11a36aeb839da3cd2fe7481ffc assets/thebrainrots/models/item/gooneringot.json
+b6ada9c75eca98c027f579d237be7e321da71fe5 assets/thebrainrots/models/item/gooner_axe.json
 e2550d9bd82380b2aa71f3c8d030b4ffee95569c assets/thebrainrots/models/item/gooner_button.json
+348d757ef0cdd3fbc8a47b2d61796c1c062ba025 assets/thebrainrots/models/item/gooner_hoe.json
+c2cd8a9045fc33ad6f3770c0f6984bc9f3884789 assets/thebrainrots/models/item/gooner_pickaxe.json
+0ef080ba4072faf03a9edf5869a32387ca79c13a assets/thebrainrots/models/item/gooner_shovel.json
+fa170ed1a0413275c35fe65779504011e86b2fdd assets/thebrainrots/models/item/gooner_sword.json

@@ -24,6 +24,12 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.goonergem.get());
                       output.accept(ModItems.gooneringot.get());
 
+                      output.accept(ModItems.gooner_sword.get());
+                      output.accept(ModItems.gooner_pickaxe.get());
+                      output.accept(ModItems.gooner_shovel.get());
+                      output.accept(ModItems.gooner_axe.get());
+                      output.accept(ModItems.gooner_hoe.get());
+
 
                       output.accept(ModBlocks.chicken_bake.get());
 
