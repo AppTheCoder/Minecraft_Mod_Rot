@@ -6,6 +6,8 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.level.block.Block;
+import net.minecraftforge.event.entity.living.LivingDropsEvent;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 import org.jetbrains.annotations.NotNull;
 
@@ -21,9 +23,19 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.gooner_block.get());
         dropSelf(ModBlocks.chicken_bake.get());
 
+        dropSelf(ModBlocks.gooner_stairs.get());
+        dropSelf(ModBlocks.gooner_button.get());
+        dropSelf(ModBlocks.gooner_pressure_plate.get());
+
+        this.add(ModBlocks.gooner_slab.get(),
+            block -> createSlabItemTable(ModBlocks.gooner_slab.get()));
+
         this.add(ModBlocks.gooner_ore.get(),
                 block -> createOreDrop(ModBlocks.gooner_ore.get(), ModItems.goonergem.get()));
+
+
     }
+
 
 
     @Override

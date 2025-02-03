@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "thebrainrots:block/gooner_block",
+    "side": "thebrainrots:block/gooner_block",
+    "top": "thebrainrots:block/gooner_block"
+  }
+}

@@ -1,0 +1,8 @@
+// 1.21	2025-02-02T20:07:27.0169241	Loot Tables
+e328ec5657ef5d272b532245f6c683c76e033df8 data/thebrainrots/loot_table/blocks/chicken_bake.json
+f7ac466b51353c2a73655eebf9d338b414d73ad3 data/thebrainrots/loot_table/blocks/gooner_block.json
+ff2d61c8488dabc9652ae7db1e59778d5e01c5cd data/thebrainrots/loot_table/blocks/gooner_button.json
+f086eec31f3f93e3e871ddf248a4bb68b33bd50d data/thebrainrots/loot_table/blocks/gooner_ore.json
+ee1b8dadd467b09d75debadc46eab2391f7f410c data/thebrainrots/loot_table/blocks/gooner_pressure_plate.json
+9b73fdf6fb5002d4bd6e5d83d4b237ff5b8e5ae5 data/thebrainrots/loot_table/blocks/gooner_slab.json
+881af662a0d984de2cd7eabaa4f8f8d1f42754c2 data/thebrainrots/loot_table/blocks/gooner_stairs.json

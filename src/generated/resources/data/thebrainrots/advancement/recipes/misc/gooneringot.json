@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gooner_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thebrainrots:gooner_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thebrainrots:gooneringot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gooner_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thebrainrots:gooneringot"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "gooner",
+  "ingredients": [
+    {
+      "item": "thebrainrots:gooneringot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "thebrainrots:gooner_button"
+  }
+}

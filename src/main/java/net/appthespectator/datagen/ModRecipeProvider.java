@@ -44,7 +44,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.gooner_block.get()), has(ModBlocks.gooner_block.get())).save(pRecipeOutput);
 
         // Need if have an item with same result
-        //.save(pRecipeOutput, TheBrainRots.MOD_ID + ":alexandrite_from_magic_block");
+        //.save(pRecipeOutput, TheBrainRots.MOD_ID + ":gooner_from_chicken_bake");
 
+        stairBuilder(ModBlocks.gooner_stairs.get(), Ingredient.of(ModItems.gooneringot.get())).group("gooner")
+                .unlockedBy(getHasName(ModItems.gooneringot.get()), has(ModItems.gooneringot.get())).save(pRecipeOutput);
+        slab(pRecipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.gooner_slab.get(), ModItems.gooneringot.get());
+
+        buttonBuilder(ModBlocks.gooner_button.get(), Ingredient.of(ModItems.gooneringot.get())).group("gooner")
+                .unlockedBy(getHasName(ModItems.gooneringot.get()), has(ModItems.gooneringot.get())).save(pRecipeOutput);
+        pressurePlate(pRecipeOutput, ModBlocks.gooner_pressure_plate.get(), ModItems.gooneringot.get());
     }
 }

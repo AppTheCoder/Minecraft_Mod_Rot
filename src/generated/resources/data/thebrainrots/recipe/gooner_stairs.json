@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "gooner",
+  "key": {
+    "#": {
+      "item": "thebrainrots:gooneringot"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "thebrainrots:gooner_stairs"
+  }
+}

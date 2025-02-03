@@ -25,5 +25,6 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.gooner_ore.get())
                 .add(ModBlocks.gooner_block.get());
+
     }
 }

@@ -1,0 +1,3 @@
+// 1.21	2025-02-02T19:28:18.3649383	Tags for minecraft:block mod id thebrainrots
+b1f9dcba7ff6caa07140183de52bec81ae3e3211 data/minecraft/tags/block/mineable/pickaxe.json
+fb9dd03c2336d5c42dafb2aea2e99b122f677f71 data/minecraft/tags/block/needs_iron_tool.json

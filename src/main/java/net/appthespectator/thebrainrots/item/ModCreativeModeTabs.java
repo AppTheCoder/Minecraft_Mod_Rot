@@ -25,16 +25,19 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.gooneringot.get());
 
 
-
-                      output.accept(ModBlocks.gooner_ore.get());
-                      output.accept(ModBlocks.gooner_block.get());
-
                       output.accept(ModBlocks.chicken_bake.get());
 
                       output.accept(ModItems.Double_Chunk.get());
 
                       output.accept(ModItems.fu.get());
 
+                      output.accept(ModBlocks.gooner_ore.get());
+
+                      output.accept(ModBlocks.gooner_block.get());
+                      output.accept(ModBlocks.gooner_stairs.get());
+                      output.accept(ModBlocks.gooner_slab.get());
+                      output.accept(ModBlocks.gooner_pressure_plate.get());
+                      output.accept(ModBlocks.gooner_button.get());
 
                     }).build());
 

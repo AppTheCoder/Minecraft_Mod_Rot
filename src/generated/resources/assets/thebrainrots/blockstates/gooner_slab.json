@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "thebrainrots:block/gooner_slab"
+    },
+    "type=double": {
+      "model": "thebrainrots:block/gooner_block"
+    },
+    "type=top": {
+      "model": "thebrainrots:block/gooner_slab_top"
+    }
+  }
+}
