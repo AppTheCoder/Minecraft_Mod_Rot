@@ -38,6 +38,58 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('C', Items.COOKED_CHICKEN)
                 .unlockedBy(getHasName(Items.COOKED_CHICKEN), has(Items.COOKED_CHICKEN)).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.gooner_sword.get())
+                .pattern(" G ")
+                .pattern(" G ")
+                .pattern(" S ")
+                .define('G', ModItems.gooneringot.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.gooneringot.get()), has(ModItems.gooneringot.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.gooner_pickaxe.get())
+                .pattern("GGG")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('G', ModItems.gooneringot.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.gooneringot.get()), has(ModItems.gooneringot.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.gooner_axe.get())
+                .pattern("GG ")
+                .pattern("GS ")
+                .pattern(" S ")
+                .define('G', ModItems.gooneringot.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.gooneringot.get()), has(ModItems.gooneringot.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.gooner_shovel.get())
+                .pattern(" G ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('G', ModItems.gooneringot.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.gooneringot.get()), has(ModItems.gooneringot.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.gooner_hoe.get())
+                .pattern("GG ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('G', ModItems.gooneringot.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.gooner_sword.get()), has(ModItems.gooner_sword.get())).save(pRecipeOutput);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.toilet.get())
+                .pattern("NNN")
+                .pattern("BGB")
+                .pattern("BBB")
+                .define('G', ModItems.gooneringot.get())
+                .define('B', Items.BRICK)
+                .define('N', Items.NETHER_BRICK)
+                .unlockedBy(getHasName(ModItems.gooner_sword.get()), has(ModItems.gooner_sword.get())).save(pRecipeOutput);
+
+
+
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.gooneringot.get(), 9)
                 .requires(ModBlocks.gooner_block.get())

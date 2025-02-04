@@ -1,4 +1,4 @@
-// 1.21	2025-02-02T21:02:04.2410785	Item Models: thebrainrots
+// 1.21	2025-02-03T20:16:22.8857003	Item Models: thebrainrots
 ead84a3b883c4ebae06ec80f0572bc9ac1b83d70 assets/thebrainrots/models/item/double_chunk.json
 442222294c49ddf4c711fc4d1f4cdc81ae03029a assets/thebrainrots/models/item/fu.json
 8fac5f97814b253c723a69542aea90d7715f772e assets/thebrainrots/models/item/goonergem.json
@@ -9,3 +9,6 @@ e2550d9bd82380b2aa71f3c8d030b4ffee95569c assets/thebrainrots/models/item/gooner_
 c2cd8a9045fc33ad6f3770c0f6984bc9f3884789 assets/thebrainrots/models/item/gooner_pickaxe.json
 0ef080ba4072faf03a9edf5869a32387ca79c13a assets/thebrainrots/models/item/gooner_shovel.json
 fa170ed1a0413275c35fe65779504011e86b2fdd assets/thebrainrots/models/item/gooner_sword.json
+0044f6ae4ef98a0dea076036ccc95e9f52a12277 assets/thebrainrots/models/item/poop.json
+514081e2f2814ca98b3321713011503b0045acc0 assets/thebrainrots/models/item/toilet.json
+72159452542d6b5516f9d47f49e43e0068ba4cb1 assets/thebrainrots/models/item/toilet_ingot.json

@@ -33,6 +33,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         this.add(ModBlocks.gooner_ore.get(),
                 block -> createOreDrop(ModBlocks.gooner_ore.get(), ModItems.goonergem.get()));
 
+        this.add(ModBlocks.toilet_ore.get(),
+                block -> createOreDrop(ModBlocks.toilet_ore.get(), ModItems.poop.get()));
+
 
     }
 

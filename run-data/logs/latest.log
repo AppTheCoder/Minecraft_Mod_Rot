@@ -1,27 +1,27 @@
-[02Feb2025 21:12:13.350] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\Austin\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, thebrainrots, --all, --output, F:\Minecraft_Mod_Rot\src\generated\resources, --existing, F:\Minecraft_Mod_Rot\src\main\resources]
-[02Feb2025 21:12:13.353] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
-[02Feb2025 21:12:13.354] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[02Feb2025 21:12:13.412] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[02Feb2025 21:12:13.477] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/Austin/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[02Feb2025 21:12:14.069] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[02Feb2025 21:12:14.545] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\Austin\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, thebrainrots, --all, --output, F:\Minecraft_Mod_Rot\src\generated\resources, --existing, F:\Minecraft_Mod_Rot\src\main\resources]
-[02Feb2025 21:12:17.613] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
-[02Feb2025 21:12:17.613] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
-[02Feb2025 21:12:17.630] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[02Feb2025 21:12:17.955] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [thebrainrots]
-[02Feb2025 21:12:18.000] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Austin/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[02Feb2025 21:12:18.000] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Austin/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[02Feb2025 21:12:18.081] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[02Feb2025 21:12:18.213] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 131 ms
-[02Feb2025 21:12:18.213] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[02Feb2025 21:12:18.231] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 17 ms
-[02Feb2025 21:12:18.231] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id thebrainrots
-[02Feb2025 21:12:18.238] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id thebrainrots finished after 6 ms
-[02Feb2025 21:12:18.238] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id thebrainrots
-[02Feb2025 21:12:18.239] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id thebrainrots finished after 1 ms
-[02Feb2025 21:12:18.239] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: thebrainrots
-[02Feb2025 21:12:18.242] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: thebrainrots finished after 2 ms
-[02Feb2025 21:12:18.242] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: thebrainrots
-[02Feb2025 21:12:18.308] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: thebrainrots finished after 65 ms
-[02Feb2025 21:12:18.308] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 226 ms
-[02Feb2025 21:12:18.312] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 61, old count: 61, new count: 62, removed stale: 0, written: 0
+[03Feb2025 20:25:59.189] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\Austin\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, thebrainrots, --all, --output, F:\Minecraft_Mod_Rot\src\generated\resources, --existing, F:\Minecraft_Mod_Rot\src\main\resources]
+[03Feb2025 20:25:59.192] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[03Feb2025 20:25:59.194] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[03Feb2025 20:25:59.268] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[03Feb2025 20:25:59.334] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/Austin/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[03Feb2025 20:25:59.898] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[03Feb2025 20:26:00.430] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\Austin\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, thebrainrots, --all, --output, F:\Minecraft_Mod_Rot\src\generated\resources, --existing, F:\Minecraft_Mod_Rot\src\main\resources]
+[03Feb2025 20:26:03.630] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[03Feb2025 20:26:03.630] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[03Feb2025 20:26:03.646] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[03Feb2025 20:26:03.980] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [thebrainrots]
+[03Feb2025 20:26:04.028] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Austin/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[03Feb2025 20:26:04.028] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Austin/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[03Feb2025 20:26:04.121] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[03Feb2025 20:26:04.234] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 111 ms
+[03Feb2025 20:26:04.234] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[03Feb2025 20:26:04.255] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 20 ms
+[03Feb2025 20:26:04.255] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id thebrainrots
+[03Feb2025 20:26:04.266] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id thebrainrots finished after 11 ms
+[03Feb2025 20:26:04.266] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id thebrainrots
+[03Feb2025 20:26:04.268] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id thebrainrots finished after 1 ms
+[03Feb2025 20:26:04.268] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: thebrainrots
+[03Feb2025 20:26:04.273] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: thebrainrots finished after 4 ms
+[03Feb2025 20:26:04.273] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: thebrainrots
+[03Feb2025 20:26:04.340] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: thebrainrots finished after 67 ms
+[03Feb2025 20:26:04.340] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 220 ms
+[03Feb2025 20:26:04.345] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 81, old count: 81, new count: 82, removed stale: 0, written: 0

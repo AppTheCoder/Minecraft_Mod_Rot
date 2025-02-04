@@ -30,6 +30,10 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.gooner_axe.get());
                       output.accept(ModItems.gooner_hoe.get());
 
+                      output.accept(ModItems.toilet.get());
+                      output.accept(ModItems.poop.get());
+                      output.accept(ModItems.toilet_ingot.get());
+
 
                       output.accept(ModBlocks.chicken_bake.get());
 
@@ -38,6 +42,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.fu.get());
 
                       output.accept(ModBlocks.gooner_ore.get());
+                      output.accept(ModBlocks.toilet_ore.get());
 
                       output.accept(ModBlocks.gooner_block.get());
                       output.accept(ModBlocks.gooner_stairs.get());

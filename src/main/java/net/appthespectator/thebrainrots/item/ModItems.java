@@ -2,6 +2,7 @@ package net.appthespectator.thebrainrots.item;
 
 import net.appthespectator.thebrainrots.TheBrainRots;
 import net.appthespectator.thebrainrots.item.custom.DoubleChunkItem;
+import net.appthespectator.thebrainrots.item.custom.toilet;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,7 +21,14 @@ public class ModItems {
     public static final RegistryObject<Item> fu = ITEMS.register("fu",
             () -> new Item(new Item.Properties()));
 
+    public  static final RegistryObject<Item> poop = ITEMS.register("poop",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.poop)));
+    public static final RegistryObject<Item> toilet_ingot = ITEMS.register("toilet_ingot",
+            () -> new Item(new Item.Properties()));
 
+
+    public static final RegistryObject<Item> toilet = ITEMS.register("toilet",
+            () -> new toilet(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> Double_Chunk = ITEMS.register("double_chunk",
             () -> new DoubleChunkItem(new Item.Properties().durability(64)));
 

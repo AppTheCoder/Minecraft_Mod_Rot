@@ -20,6 +20,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.gooner_ore);
         blockWithItem(ModBlocks.gooner_block);
 
+        blockWithItem(ModBlocks.toilet_ore);
+
         blockWithItem(ModBlocks.chicken_bake);
 
         blockItem(ModBlocks.gooner_block);

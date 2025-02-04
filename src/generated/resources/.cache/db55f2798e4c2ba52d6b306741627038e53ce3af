@@ -1,5 +1,6 @@
-// 1.21	2025-02-02T21:02:04.2420783	Tags for minecraft:block mod id thebrainrots
+// 1.21	2025-02-03T19:30:18.0669962	Tags for minecraft:block mod id thebrainrots
+4bf518a28f9b62d02c32262c99c67cb057c86d54 data/minecraft/tags/block/incorrect_for_iron_tool.json
 b1f9dcba7ff6caa07140183de52bec81ae3e3211 data/minecraft/tags/block/mineable/pickaxe.json
-fb9dd03c2336d5c42dafb2aea2e99b122f677f71 data/minecraft/tags/block/needs_iron_tool.json
+3fef7e78d3b40946069e8533886a40a8e7589e6d data/minecraft/tags/block/needs_iron_tool.json
 f96130fcf9fd59970f57b63419ee23ac91552b2a data/thebrainrots/tags/block/incorrect_for_gooner_tool.json
-3f6b8bf958e38d2ba5ca4e089b848d89eddca410 data/thebrainrots/tags/block/needs_gooner_tool.json
+c84434224c32c9f7424f6c008d8e3e9bf8c680b6 data/thebrainrots/tags/block/needs_gooner_tool.json

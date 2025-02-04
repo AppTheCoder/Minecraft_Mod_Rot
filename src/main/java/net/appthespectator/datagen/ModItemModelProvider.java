@@ -23,6 +23,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.goonergem.get());
         basicItem(ModItems.gooneringot.get());
 
+        basicItem(ModItems.poop.get());
+        basicItem(ModItems.toilet.get());
+        basicItem(ModItems.toilet_ingot.get());
+
         basicItem(ModItems.Double_Chunk.get());
         basicItem(ModItems.fu.get());
 

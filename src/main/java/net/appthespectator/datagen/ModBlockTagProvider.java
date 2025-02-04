@@ -10,6 +10,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.fml.common.Mod;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -26,13 +27,17 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
 
         tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.gooner_ore.get())
                 .add(ModBlocks.gooner_block.get());
+
+        tag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .add(ModBlocks.toilet_ore.get());
+
 
 
         tag(ModTags.Blocks.needs_gooner_tool)
                // .add(ModBlocks.NEXT TIER OF STUFF)
                 .add(Blocks.OBSIDIAN)
+                .add(ModBlocks.toilet_ore.get())
                 .addTag(BlockTags.NEEDS_IRON_TOOL);
 
         tag(ModTags.Blocks.incorrect_for_gooner_tool)

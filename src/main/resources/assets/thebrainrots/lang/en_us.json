@@ -3,7 +3,7 @@
   "item.thebrainrots.gooneringot": "Gooner Ingot",
   "item.thebrainrots.fu": "You Messed Up, Try Something Else",
 
-  "item.thebrainrots.gooner_sword": "Gooner Sword",
+  "item.thebrainrots.gooner_sword": "Gooner Sword?",
   "item.thebrainrots.gooner_pickaxe": "Gooner Pickaxe",
   "item.thebrainrots.gooner_shovel": "Gooner Shovel",
   "item.thebrainrots.gooner_axe": "Gooner Axe",
@@ -12,6 +12,13 @@
   "item.thebrainrots.double_chunk": "Double Chunk Chocolate Cookie",
 
   "block.thebrainrots.gooner_ore": "Gooner Ore",
+
+  "item.thebrainrots.toilet": "Toilet",
+  "item.thebrainrots.poop": "Poop",
+  "item.thebrainrots.toilet_ingot": "Toilet Ingot",
+
+
+  "block.thebrainrots.toilet_ore": "Toilet Ore",
 
 
   "block.thebrainrots.gooner_block": "Gooner Block",

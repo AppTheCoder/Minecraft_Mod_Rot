@@ -47,6 +47,10 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(2,5),(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.SCULK_SHRIEKER))));
 
+    public static final RegistryObject<Block> toilet_ore = registerBlock("toilet_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2,5),(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.SCULK_SHRIEKER))));
+
 
     public static final RegistryObject<Block> chicken_bake = registerBlock("chicken_bake",
             () -> new ChickenBake(BlockBehaviour.Properties.of().strength(2f)));
