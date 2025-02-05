@@ -1,15 +1,12 @@
 package net.appthespectator.datagen;
 
-import net.appthespectator.thebrainrots.TheBrainRots;
 import net.appthespectator.thebrainrots.block.ModBlocks;
 import net.appthespectator.thebrainrots.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
-import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.List;
@@ -77,6 +74,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('G', ModItems.gooneringot.get())
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.gooner_sword.get()), has(ModItems.gooner_sword.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.gooner_bow.get())
+                .pattern(" G ")
+                .pattern(" G ")
+                .pattern("   ")
+                .define('G', ModItems.gooneringot.get())
+                .unlockedBy(getHasName(ModItems.gooner_bow.get()), has(ModItems.gooneringot.get())).save(pRecipeOutput);
+
 
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.toilet.get())

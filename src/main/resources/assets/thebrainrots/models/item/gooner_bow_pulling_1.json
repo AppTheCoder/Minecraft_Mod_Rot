@@ -1,0 +1,6 @@
+{
+  "parent": "thebrainrots:item/gooner_bow",
+  "textures": {
+    "layer0": "thebrainrots:item/gooner_bow_pulling_1"
+  }
+}

@@ -12,8 +12,8 @@ public class ModFoodProperties {
             .nutrition(9)
             .saturationModifier(1.2F)
             .effect(new MobEffectInstance(MobEffects.INFESTED, 400, 1), 1.0F)
-            .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 6000, 1), 1.0F)
-            .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 6000, 1), 1.0F)
+            .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 500, 1), 1.0F)
+            .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 500, 1), 1.0F)
             .effect(new MobEffectInstance(MobEffects.OOZING, 2400, 3), 1.0F)
             .alwaysEdible()
             .build();

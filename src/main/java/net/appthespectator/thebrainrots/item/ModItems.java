@@ -48,6 +48,8 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.gooner, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.gooner, 4, -2.4f))));
 
+    public static final  RegistryObject<Item> gooner_bow = ITEMS.register("gooner_bow",
+            () -> new BowItem(new Item.Properties().durability(500)));
 
 
     public static void register(IEventBus eventBus){

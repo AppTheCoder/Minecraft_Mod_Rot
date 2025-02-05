@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.appthespectator.thebrainrots.block.ModBlocks;
 import net.appthespectator.thebrainrots.item.ModCreativeModeTabs;
 import net.appthespectator.thebrainrots.item.ModItems;
+import net.appthespectator.thebrainrots.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -82,6 +83,8 @@ public class TheBrainRots
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+            ModItemProperties.addCustomItemProperties();
+
 
         }
     }

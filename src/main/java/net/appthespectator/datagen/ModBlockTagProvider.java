@@ -2,10 +2,12 @@ package net.appthespectator.datagen;
 
 import net.appthespectator.thebrainrots.TheBrainRots;
 import net.appthespectator.thebrainrots.block.ModBlocks;
+import net.appthespectator.thebrainrots.item.ModItems;
 import net.appthespectator.thebrainrots.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.data.BlockTagsProvider;
@@ -32,6 +34,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.INCORRECT_FOR_IRON_TOOL)
                 .add(ModBlocks.toilet_ore.get());
 
+        tag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .add(ModBlocks.toilet_ore.get());
 
 
         tag(ModTags.Blocks.needs_gooner_tool)

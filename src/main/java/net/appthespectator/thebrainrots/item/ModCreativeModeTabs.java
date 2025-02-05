@@ -30,6 +30,9 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.gooner_axe.get());
                       output.accept(ModItems.gooner_hoe.get());
 
+                      output.accept(ModItems.gooner_bow.get());
+
+
                       output.accept(ModItems.toilet.get());
                       output.accept(ModItems.poop.get());
                       output.accept(ModItems.toilet_ingot.get());
